@@ -28,5 +28,6 @@ List::List()
 }
 void List::addNode()		//Menambah sebuah node kedalam list
 {
-
+	int nim;
+	char nm[20];
 }
