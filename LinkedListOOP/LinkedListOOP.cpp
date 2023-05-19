@@ -39,6 +39,9 @@ void List::addNode()		//Menambah sebuah node kedalam list
 	nodeBaru->noMhs = nim;
 	strcpy_s(nodeBaru->nama, nm);
 
-
+	if (START == NULL || nim <= START->noMhs)
+	{
+	
+	}
 }
 
