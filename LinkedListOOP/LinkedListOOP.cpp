@@ -24,4 +24,5 @@ public:
 
 List::List()
 {
+	START = NULL;
 }
