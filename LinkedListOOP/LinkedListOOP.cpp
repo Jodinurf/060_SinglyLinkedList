@@ -92,3 +92,12 @@ bool List::delNode(int nim) /*Menghapus Node dari dalam list*/
 	return true;
 }
 
+/*check apakah node yang dimaksud ada di dalam list atau tidak*/
+bool List::Search(int nim, Node * *previous, Node * *current)
+{
+	*previous = START;
+	*current = START;
+
+}
+
+
